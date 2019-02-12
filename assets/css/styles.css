@@ -25,6 +25,51 @@ p.two {
     left: 140px;
 }
 
+p.three {
+    font-family: Arial, Helvetica, sans-serif, bold;
+    font-size: 60pt;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+    top: 260px;
+    left: 90px;
+}
+
+p.four {
+    font-family: Arial, Helvetica, sans-serif, bold;
+    font-size: 60pt;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+    top: 350px;
+    left: 140px;
+}
+
+p.five {
+    font-family: Arial, Helvetica, sans-serif, bold;
+    font-size: 60pt;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+    top: 440px;
+    left: 90px;
+}
+
+p.six {
+    font-family: Arial, Helvetica, sans-serif, bold;
+    font-size: 60pt;
+    color: black;
+    position: absolute;
+    top: 580px;
+    left: 880px;
+}
+
 
 b.fill {
     font-family: Arial, Helvetica, sans-serif;
@@ -34,3 +79,6 @@ b.fill {
     -webkit-text-stroke-color: black;
 }
 
+body, html {
+    cursor: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-chevron-right-512.png);
+  }
