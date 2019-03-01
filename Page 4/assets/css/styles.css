@@ -12,6 +12,9 @@ p.quote {
     left: 205px;
 }
 
+span:hover {
+    color: pink;
+}
 
 .left {
     position: absolute;

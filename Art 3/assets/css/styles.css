@@ -6,7 +6,7 @@ html {
 
 .warhol1, .warhol2, .warhol3, .warhol4, .warhol5 {
     position: absolute;
-    visibility: hidden;
+    display: none;
 }
 
 
