@@ -1,0 +1,109 @@
+html {
+    border: 17px solid #B3B3B3;
+    height: 96%;
+}
+
+.illusion, .illusion2, .illusion3, .illusion4, .illusion5, .illusion6 {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+p.one {
+    font-family: Arial, Helvetica, sans-serif, bold;
+    font-size: 40pt;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+p.two {
+    font-family: Arial, Helvetica, sans-serif, bold;
+    font-size: 40pt;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+    top: 260px;
+    left: 300px;
+}
+
+p.three {
+    font-family: Arial, Helvetica, sans-serif, bold;
+    font-size: 40pt;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+    top: 320px;
+    left: 300px;
+}
+
+p.paragraph {
+    font-family: Helvetica;
+    font-size: 15pt;
+    position: absolute;
+    top: 480px;
+    right: 250px;
+    width: 250px;
+    height: 200px;
+    text-align: right;
+    overflow: scroll;
+}
+
+
+
+
+.art {
+    font-family: Helvetica, sans-serif, bold;
+    font-size: 14pt;
+    color: black;
+    position: absolute;
+    left: 75px;
+    top: 65px;
+    text-decoration: none;
+}
+
+.forms {
+    font-family: Helvetica, sans-serif, bold;
+    font-size: 14pt;
+    color: black;
+    position: absolute;
+    right: 75px;
+    top: 65px;
+    text-decoration: none;
+}
+
+mark {
+    background-color: black;
+}
+
+b.fill {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.left {
+    position: absolute;
+    top: 700px;
+    left: 50px;
+}
+
+.right {
+    position: absolute;
+    top: 700px;
+    right: 50px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
