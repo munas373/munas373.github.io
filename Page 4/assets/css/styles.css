@@ -14,8 +14,9 @@ body #centerbox {
   width: 900px;
   margin: 0 auto;
   position: absolute;
-  left: 500px;
-  top: 100px;
+  left: 520px;
+  top: 220px;
+  font-family: 30pt;
 }
 
 article.highlight {
@@ -23,7 +24,7 @@ article.highlight {
   width: 500px;
   padding: 5px;
   font-size: 20pt;
-  color: #cecece;
+  color: #dfdfdf;
 }
 
 article.highlight * {
@@ -31,7 +32,7 @@ article.highlight * {
 }
 
 article.highlight span {
-  color: #cecece !important;
+  color: #dfdfdf !important;
 }
 
 article.highlight p {
@@ -77,4 +78,8 @@ article.highlight:hover, article.highlight.hover {
 
 a:hover {
     text-decoration: underline;
+}
+
+.new-illusion{
+  position:   absolute;
 }

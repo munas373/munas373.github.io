@@ -2,11 +2,7 @@ html {
     border: 17px solid #B3B3B3;
     height: 96%;
     background-color: black;
-}
-
-.warhol1, .warhol2, .warhol3, .warhol4, .warhol5 {
-    position: absolute;
-    display: none;
+    overflow: hidden;
 }
 
 p.one {
@@ -50,4 +46,8 @@ mark {
 
 a:hover {
     text-decoration: underline;
+}
+
+.new-illusion{
+    position:   absolute;
 }

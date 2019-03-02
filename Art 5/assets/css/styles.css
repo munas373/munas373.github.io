@@ -2,14 +2,8 @@ html {
     border: 17px solid #B3B3B3;
     height: 96%;
     background-color: black;
+    overflow: hidden;
 }
-
-.warhol1, .warhol2, .warhol3, .warhol4, .warhol5 {
-    position: absolute;
-    visibility: hidden;
-}
-
-
 
 p.one {
     font-family: Arial, Helvetica, sans-serif, bold;
@@ -52,4 +46,8 @@ mark {
 
 a:hover {
     text-decoration: underline;
+}
+
+.new-illusion{
+    position:   absolute;
 }

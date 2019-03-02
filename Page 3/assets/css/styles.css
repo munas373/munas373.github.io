@@ -11,18 +11,6 @@ canvas {
     position: absolute;
   }
 
-.gif {
-    position: absolute;
-    top: 100px;
-    left: 200px;
-    display: none;
-}
-
-.left-text, .right-text {
-    position: absolute;
-    display: none;
-}
-
 .left {
     position: absolute;
     top: 700px;
@@ -57,4 +45,8 @@ canvas {
 
 a:hover {
     text-decoration: underline;
+}
+
+.new-illusion{
+    position:   absolute;
 }
