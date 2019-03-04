@@ -4,47 +4,6 @@ html {
     overflow: hidden;
 }
 
-
-*, *::before, *::after {
-  box-sizing: border-box;
-  font-family: "Helvetica", sans-serif;
-  font-size: 17pt;
-}
-
-
-body #centerbox {
-  width: 900px;
-  margin: 0 auto;
-  position: absolute;
-  left: 490px;
-  top: 190px;
-}
-
-article.highlight {
-  margin-top: 10px;
-  width: 500px;
-  padding: 5px;
-  font-size: 20pt;
-  color: #dfdfdf;
-}
-
-article.highlight * {
-  transition: color 0.1s linear;
-}
-
-article.highlight span {
-  color: #dfdfdf !important;
-}
-
-article.highlight p {
-  margin: 0;
-}
-
-article.highlight:hover, article.highlight.hover {
-  color: #333;
-}
-
-
 .left {
     position: absolute;
     top: 700px;
