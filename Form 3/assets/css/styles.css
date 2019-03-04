@@ -2,44 +2,7 @@ html {
     border: 17px solid #B3B3B3;
     height: 96%;
     background-color: black;
-}
-
-.Plato, .Plato2 {
-    position: absolute;
-    top: 160px;
-    left: 350px;
-    visibility: hidden;
-}
-
-.math, .math2 {
-    position: absolute;
-    top: 450px;
-    right: 250px;
-    visibility: hidden;
-}
-
-.blueprint, .blueprint2 {
-    position: absolute;
-    top: 300px;
-    right: 100px;
-    visibility: hidden;
-}
-
-.light, .light2 {
-    position: absolute;
-    top: 300px;
-    right: 500px;
-    visibility: hidden;
-}
-
-.mind {
-    position: absolute;
-    visibility: hidden;
-}
-
-.thinker {
-    position: absolute;
-    visibility: hidden;
+    overflow: hidden;
 }
 
 p.one {
@@ -92,6 +55,10 @@ mark {
 
 a:hover {
     text-decoration: underline;
+}
+
+.new-illusion{
+    position:   absolute;
 }
 
 
