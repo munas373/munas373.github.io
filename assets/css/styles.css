@@ -1,6 +1,7 @@
 html {
     border: 17px solid #B3B3B3;
     height: 96%;
+    overflow: hidden;
 }
 
 .wrapper {
