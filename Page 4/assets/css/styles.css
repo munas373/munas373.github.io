@@ -1,0 +1,85 @@
+html {
+    border: 17px solid #B3B3B3;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: "Helvetica", sans-serif;
+}
+
+
+body #centerbox {
+  width: 900px;
+  margin: 0 auto;
+  position: absolute;
+  left: 500px;
+  top: 50px;
+}
+
+article.highlight {
+  margin-top: 10px;
+  width: 500px;
+  padding: 5px;
+  color: #dfdfdf;
+  font-size: 24pt;
+}
+
+article.highlight * {
+  transition: color 0.1s linear;
+}
+
+article.highlight span {
+  color: #dfdfdf !important;
+}
+
+article.highlight p {
+  margin: 0;
+}
+
+article.highlight:hover, article.highlight.hover {
+  color: #333;
+}
+
+
+.left {
+    position: absolute;
+    top: 700px;
+    left: 50px;
+}
+
+.right {
+    position: absolute;
+    top: 700px;
+    right: 50px;
+}
+
+.art {
+    font-family: Helvetica, sans-serif, bold;
+    font-size: 14pt;
+    color: black;
+    position: absolute;
+    left: 75px;
+    top: 65px;
+    text-decoration: none;
+}
+
+.forms {
+    font-family: Helvetica, sans-serif, bold;
+    font-size: 14pt;
+    color: black;
+    position: absolute;
+    right: 75px;
+    top: 65px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.new-illusion{
+  position:   absolute;
+}

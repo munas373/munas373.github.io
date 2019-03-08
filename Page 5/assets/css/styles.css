@@ -1,0 +1,71 @@
+html {
+    border: 17px solid #B3B3B3;
+    height: 96%;
+    overflow: hidden;
+}
+
+.left {
+    position: absolute;
+    top: 700px;
+    left: 50px;
+}
+
+.right {
+    position: absolute;
+    top: 700px;
+    right: 50px;
+}
+
+.art {
+  font-family: Helvetica, sans-serif, bold;
+  font-size: 14pt;
+  color: black;
+  position: absolute;
+  left: 75px;
+  top: 65px;
+  text-decoration: none;
+}
+
+p.one {
+  font-family: Arial, Helvetica, sans-serif, bold;
+  font-size: 100pt;
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgb(212, 0, 0);
+  position: absolute;
+  top: 70px;
+  left: 230px;
+}
+
+p.truth {
+  font-family: Helvetica;
+  color:rgb(212, 0, 0);
+  font-size: 100pt;
+  position: absolute;
+  left: 540px;
+  top: 372px;
+}
+
+.forms {
+  font-family: Helvetica, sans-serif, bold;
+  font-size: 14pt;
+  color: black;
+  position: absolute;
+  right: 75px;
+  top: 65px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.truth:hover {
+  text-decoration: underline;
+}
+
+
+.new-illusion{
+  position: absolute;
+}

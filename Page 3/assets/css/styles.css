@@ -1,0 +1,52 @@
+html {
+    border: 17px solid #B3B3B3;
+    height: 96%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+.left {
+    position: absolute;
+    top: 700px;
+    left: 50px;
+}
+
+.right {
+    position: absolute;
+    top: 700px;
+    right: 50px;
+}
+
+.art {
+    font-family: Helvetica, sans-serif, bold;
+    font-size: 14pt;
+    color: black;
+    position: absolute;
+    left: 75px;
+    top: 65px;
+    text-decoration: none;
+}
+
+.forms {
+    font-family: Helvetica, sans-serif, bold;
+    font-size: 14pt;
+    color: black;
+    position: absolute;
+    right: 75px;
+    top: 65px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.new-illusion{
+    position:   absolute;
+}
